@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import { UserContext } from '../../context/UserContext'
 
 
+
 export default function Register() {
     
     let{userLogin ,setuserLogin}= useContext(UserContext)
