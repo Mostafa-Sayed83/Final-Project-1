@@ -12,7 +12,7 @@ import Login from "./components/Login/Login"
 import Register from "./components/Register/Register"
 import Verify from "./components/Verify/Verify"
 import Notfound from "./components/Notfound/Notfound"
-import UserContextProvider from './context/UserContext'
+import UserContextProvider, { UserContext } from './context/UserContext'
 import ProtectedRouter from "./components/ProtectedRouter/ProtectedRouter"
 import ProductDetails from "./components/ProductDetails/ProductDetails"
 import CartContextProvider from './Context/CartContext'
@@ -22,6 +22,7 @@ import AllOrders from "./components/AllOrders/Allorders"
 import WishListContextProvider from "./Context/WishlistContext"
 import ResetCode from "./components/ResetCode/ResetCode"
 import ResetPassword from "./components/ResetPassword/ResetPassword"
+
 
 
 
